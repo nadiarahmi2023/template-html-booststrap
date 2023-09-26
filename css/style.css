@@ -1,0 +1,253 @@
+/*start variable*/
+:root{
+	--main-color:#ff0000;
+	
+
+
+}
+/*end variable*/
+/*start Global rules*/
+*{
+	padding:0;
+	margin:0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+
+.clearfix{clear:both;}
+
+
+/*end global rules*/
+/*start component*/
+
+.heading{
+	color:#ebeced;
+	margin:0px;
+	text-align:center;
+	font-size:55px;
+	font-weight:bold;
+	letter-spacing:-3px;
+}
+.heading + p {
+    text-align: center;
+    margin:-30px 0 0;
+    font-size: 20px;
+    font-family:Apple Chancery, cursive;
+   }
+/*end component*/
+/*start head*/
+header .logo{
+	width: 75px;
+}
+.navbar-light .navbar-nav .nav-link{
+	color:black;
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover{
+	color:var(--main-color);
+}
+/*end head*/
+/*start hero*/
+
+.title-res{
+	
+	background-image:url("../image/cou.jpg");
+	background-size:cover;
+	height: 400px;
+	}
+
+.title-res  .title h2{
+	font-family:monospace;
+	letter-spacing:3px;
+	font-size:20px;
+	font-weight:bold;
+}
+.title-res .title p{
+	font-style:italic;
+	font-size:18px;
+	padding-top:10px;
+	
+}
+
+
+/*end hero*/
+/*start our menu*/
+.services{
+	padding:60px 0;
+
+}
+section:nth-child(even){
+	background-color: #fcf6ea;
+  }
+  section:nth-child(odd){
+	background-color: #fff;
+  }
+.services .card{
+	background-color: #fcf6ea;
+}
+.services .card img{
+	object-fit: cover;
+	height:250px;
+}
+
+.card   h5{
+	text-align:center;
+	font-size:16px;
+	font-weight:800;
+	color:var(--main-color);
+	
+}
+.card  p{
+	font-size:16px;
+	line-height:1.8;
+	color:#999;
+	margin:0px;
+	padding:5px;
+
+}
+.services .btn-plus{
+	background-color: var(--main-color);
+	color:#fff;
+	font-size: 16px;
+	font-weight: 600;
+}
+.services .btn-plus:hover{
+	background-color: transparent;
+	color:var(--main-color);
+	border:1px solid var(--main-color);
+	font-size: 16px;
+	font-weight: 600;
+}
+/*end our menu*/
+/*start specials*/
+.specials {
+ 
+	padding: 60px 0;
+}
+
+.specials .card img{
+	object-fit: cover;
+	height: 100%;
+}
+.specials .card span{
+	color:var(--main-color);
+	font-size: 20px;
+	font-weight: 600;
+
+}
+
+
+/*end services*/
+/*start contact*/
+.contact {
+	padding:60px 0;
+
+}
+
+.contact a{
+	color:black;
+	font-size: 18px;
+	font-weight: 400;
+}
+.contact a:hover{
+	color:var(--main-color);
+}
+
+.contact form{
+	background-color: #fcf6ea;
+}
+.contact  h3{
+     font-size:23px;
+     font-weight:bold;
+     color:var(--main-color);
+     margin:15px;
+}
+
+form{
+	background-color:var(--section-background);
+	margin:0px;
+	padding:10px;
+	border:1px solid #ccc;
+	margin-bottom:20px;
+	border-radius: 50px 20px;
+}
+form h1{font-size:20px;
+	}
+
+form  .boite{
+	  margin-top:20px;
+	  display:flex;
+	
+
+}
+form  label{
+	margin:10px;
+	font-size:18px;
+}
+form label sup{
+	color:var(--main-color)
+}
+ form  .part1 input{
+    border:1px solid #ccc;
+    padding: 10px;
+ }
+
+form  .btn-cmnd{
+	border-radius:5px;
+	padding:10px;
+	background-color: var(--main-color);
+	color:#fff;
+}
+form  .btn-cmnd:hover{
+	
+	background-color:#fff;
+	color:var(--main-color);
+	border: 1px solid var(--main-color);
+}
+/*end contact*/
+/*start footer*/
+footer {
+    background-color:#172121;
+    color: #fff;
+    padding-top: 50px;
+}
+
+footer .footer-info {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 30px;
+}
+
+footer .logo-footer {
+    width: 50%;
+}
+
+footer h5 {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: left;
+
+}
+
+footer .links li {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    margin: 10px;
+}
+
+footer .reseau-sociaux .svg-inline--fa:hover {
+  color:var(--main-color);
+}
+
+footer .copyright ul li {
+    padding: 10px 5px;
+}
+
+/*end footer*/
+
+
